@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-
+/* *{
+ border: solid 1px red; 
+} */
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -10,6 +12,16 @@ body {
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+}
+
+/*--- Navbar ---*/
+.progress-nav {
+  padding: 5px 10px;
+  text-align: right;
+  color: white;
+  font-size: 12px;
+  background: linear-gradient(90deg, #B35BB2 0%, #902C7E 100%);
+  height: 30px;
 }
 
 /*---Intro Event---*/
@@ -23,6 +35,10 @@ body {
   position: relative;
 }
 
+/*--- divider 1 ---*/
+.divider-1-img{
+  width: 100%;
+}
 
 /* --- Divider 2 share with us  --- */
 .divider-2-share {
@@ -40,7 +56,6 @@ body {
 /* --- our booth ---*/
 .our-booth {
   background-color: blueviolet;
-  width: 100%;
   height: 200px;
 }
 
