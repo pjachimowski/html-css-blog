@@ -197,6 +197,17 @@ input[type="text"] {
   margin: 35px;
 }
 
+/*--- watch interviews ---*/
+.watch-interviews .card {
+  border: none;
+}
+
+.watch-interviews .play-btn {
+  position: relative;
+  top: -45px;
+  left: 10px;
+}
+
 /*--- divider 1 ---*/
 .divider-1-img {
   width: 100%;
