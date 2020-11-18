@@ -72,26 +72,26 @@ nav a:hover {
   margin: 0;
 }
 
-input[type=text] {
-  color: #D6D6D6;
+input[type="text"] {
+  color: #d6d6d6;
   width: 130px;
   font-size: 16px;
   padding: 4px 8px;
   border: none;
-  background: #40174A;
-  border-radius: 4px 0 0 4px ;
+  background: #40174a;
+  border-radius: 4px 0 0 4px;
 }
 
 .search-container button {
-  color: #D6D6D6;
+  color: #d6d6d6;
   margin-right: 12px;
   height: 31px;
   float: right;
   padding: 4px 8px;
-  background: #40174A;
+  background: #40174a;
   font-size: 16px;
   border: none;
-  border-radius:  0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
 
@@ -119,7 +119,7 @@ input[type=text] {
   top: -5px;
   right: -10px;
   border-radius: 50%;
-  background: #E26D00;
+  background: #e26d00;
   color: white;
 }
 
@@ -169,7 +169,32 @@ input[type=text] {
   z-index: 1;
   background-color: white;
   transform: rotate(45deg);
+}
+/*--- case studies ---*/
+.case-studies .card {
+  -webkit-box-shadow: 0px 3px 5px 1px rgba(126, 2, 2, 0.2);
+  -moz-box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.play-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 2px;
+  position: relative;
+  top: -65px;
+  left: -10px;
+  height: 34px;
+  width: 36px;
+  z-index: 1;
+  background-color: #82236fcc;
+}
 
+.other-case-btn {
+  text-align: center;
+  margin: 35px;
 }
 
 /*--- divider 1 ---*/
@@ -200,10 +225,6 @@ footer {
   background-color: blueviolet;
 }
 
-
-
-
-
 /*---Media Queries --*/
 @media (min-width: 768px) {
   .grid-wrapper {
@@ -211,31 +232,31 @@ footer {
     max-width: 768px;
     width: 100%;
   }
-  input[type=text] {
+  input[type="text"] {
     width: 430px;
     height: 31px;
   }
   .opaque-overlay h1 {
     font-size: 3vw;
   }
-  
+
   .opaque-overlay h2 {
     font-size: 5vw;
   }
-  
+
   .opaque-overlay p {
     font-size: 0.8vw;
   }
 }
 @media (min-width: 992px) {
-  .grid-wrapper{
+  .grid-wrapper {
     margin: auto;
     max-width: 992px;
     width: 100%;
   }
 }
 @media (min-width: 1280px) {
-  .grid-wrapper{
+  .grid-wrapper {
     margin: auto;
     max-width: 1280px;
     width: 100%;
