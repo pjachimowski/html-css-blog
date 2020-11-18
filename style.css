@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 /*--- general ---*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #82236f;
+}
 
 /* *{
  border: solid 1px red; 
 }  */
-
 
 .uppercase {
   text-transform: uppercase;
@@ -16,9 +19,22 @@
   height: 100%;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #82236f;
+.blog-section {
+  padding: 80px 0;
+}
+
+.blog-section h3 {
+  font-size: 24px;
+}
+.blog-section span {
+  display: block;
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.blog-section h4 {
+  font-size: 18px;
 }
 
 /*--- Navbar ---*/
@@ -136,7 +152,25 @@ input[type=text] {
 }
 
 /*--- Product news ---*/
+.product-news .card {
+  border: none;
+}
 
+.product-news .card-body {
+  padding: 0px;
+}
+
+.card-diamond {
+  position: relative;
+  top: -10px;
+  left: 15px;
+  height: 20px;
+  width: 20px;
+  z-index: 1;
+  background-color: white;
+  transform: rotate(45deg);
+
+}
 
 /*--- divider 1 ---*/
 .divider-1-img {
