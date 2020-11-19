@@ -79,7 +79,7 @@
     </div>
     <!--- Product news --->
     <div class="container-fluid">
-      <div class="grid-wrapper blog-section product-news">
+      <div class="grid-wrapper page-section product-news">
         <div class="row">
           <div class="col-12">
             <h3>Upcoming <span>product news</span></h3>
@@ -142,7 +142,7 @@
     </div>
     <!--- Case studies --->
     <div class="container-fluid">
-      <div class="grid-wrapper blog-section case-studies">
+      <div class="grid-wrapper page-section case-studies">
         <div class="row">
           <div class="col-12">
             <h3>Our <span>Case studies</span></h3>
@@ -205,7 +205,7 @@
     </div>
     <!--- Watch interviews -->
     <div class="container-fluid">
-      <div class="grid-wrapper blog-section watch-interviews">
+      <div class="grid-wrapper page-section watch-interviews">
         <div class="row">
           <div class="col-12">
             <h3>Watch <span>interviews</span></h3>
@@ -240,11 +240,30 @@
     </div>
     <!--- Our booth -->
     <div class="container-fluid our-booth padding">
-      <div class="grid-wrapper blog-section">
+      <div class="grid-wrapper page-section">
         <div class="row h-100">
             <div class="col-12 my-auto">
             <h3>Our<span>booth</span></h3>
-            <img class="mock" src="img/our_booth_mock.jpg" />
+
+            <!-- vvv GRID BOX HERE vvv -->
+              <div class="my-grid-container">
+                <div class="grid-1 booth-area">1</div>
+                <div class="grid-2 booth-area">2</div>
+                <div class="grid-3 booth-area">3</div>
+                <div class="grid-4 booth-area">4</div>
+                <div class="grid-5 booth-area">5<p>Entrance</p></div>
+                <div class="grid-6 booth-area">6</div>
+                <div class="grid-7 booth-area">7</div>
+                <div class="grid-8 booth-area">8</div>
+                <div class="grid-9 booth-area">9</div>
+                <div class="grid-10 booth-area">10</div>
+                <div class="grid-11 booth-area">11 Here</div>
+              </div>
+            <!-- ^^^ GRID BOX HERE ^^^ -->
+
+
+            <!-- Below, commented out is a map of the location of the booth. I would rather use self-designed trancparent vector image than grid display here. -->
+            <!-- <img class="mock" src="img/our_booth_mock.jpg" /> -->
             <div>
               <img class="qr-code" src="img/scanQR.jpg" />
               Scan the QR Code to see the venue on map. Or <a href="#">Click here</a>
@@ -255,7 +274,7 @@
     </div>
     <!--- What's on Event -->
     <div class="container-fluid">
-      <div class="grid-wrapper blog-section what-on-event">
+      <div class="grid-wrapper page-section what-on-event">
         <div class="row">
           <div class="col-12">
             <h3>What's on Event <span>product brochures</span></h3>
@@ -282,32 +301,32 @@
             </div>
           </div>
           <div class="row brochure-item">
-            <div clas="col-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
-            <div class="col-11">
+            <div clas="col-2 col-md-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
+            <div class="col-10 col-md-11">
               <p>Our New Models - English</p>
               <p>PDF file 12.7 MB, publish date 10.12.2019 Friday </p>
             </div>
           </div>
           <hr />
           <div class="row brochure-item">
-            <div clas="col-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
-            <div class="col-11">
+            <div clas="col-2 col-md-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
+            <div class="col-10 col-md-11">
               <p>O Nosso Novo Modelos - Portuguese</p>
               <p>PDF file 12.7 MB, publish date 10.12.2019 Friday </p>
             </div>
           </div>
           <hr />
           <div class="row brochure-item">
-            <div clas="col-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
-            <div class="col-11">
+            <div clas="col-2 col-md-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
+            <div class="col-10 col-md-11">
               <p>Yeni Modellerimiz - Turkish</p>
               <p>PDF file 12.7 MB, publish date 10.12.2019 Friday </p>
             </div>
           </div>
           <hr />
           <div class="row brochure-item">
-            <div clas="col-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
-            <div class="col-11">
+            <div clas="col-2 col-md-1"><img src="img/adobe-pdf-icon.svg" alt="pdf file"></div>
+            <div class="col-10 col-md-11">
               <p>Performans Serisi - Turkish</p>
               <p>PDF file 12.7 MB, publish date 10.12.2019 Friday </p>
             </div>
@@ -322,28 +341,37 @@
     </div>
     <!--- Footer -->
     <footer>
-      <div class="container-fluid padding">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <img src="img/w3newbie.png" />
-            <hr class="light" />
-            <p>Connect with us</p>
-            <p>555-555-555</p>
+      <div class="container-fluid">
+        <div class="grid-wrapper page-section">
+          <div class="row h-100">
+            <div class="col-md-4 my-auto">
+              <p>Connect with Us</p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-youtube-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest-square"></i></a>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <p class="logo uppercase">logo</p>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <p><a href="#">Select country/ language Global - English <i class="fas fa-chevron-right"></i></a><br>
+              <a href="#">Select Site <i class="fas fa-angle-down"></i></a></p>
+            </div>
           </div>
-          <div class="col-md-4">
-            <p>LOGO</p>
+          <div class="row">
+            <div class="col-12 sitemap d-flex justify-content-center flex-wrap">
+              <a href="#">News center</a> | <a href="#">Careers</a> | <a href="#">Cookie Notice</a> | <a href="#">Privacy Notice</a> | <a href="#">Terms of
+                use</a>  | <a href="#">Product Security</a>
+            </div>
           </div>
-          <div class="col-md-4">
-            <p>Select country/ language Global - English ></p>
-            <p>Select Site ></p>
+          <div class="row">
+            <div class="col-12  d-flex justify-content-center">
+              &copy; 2020. All rights reserved.
+            </div>
           </div>
-        </div>
-        <div class="col-12">
-          <p>
-            News center | Careers | Cookie Notice | Privacy Notice | Terms of
-            use | Product Security
-          </p>
-          <h5>&copy; 2020. All rights reserved.</h5>
         </div>
       </div>
     </footer>
